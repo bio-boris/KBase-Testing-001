@@ -64,4 +64,5 @@ class dmlb2000genomeTest(unittest.TestCase):
         # Check returned data with
         # self.assertEqual(ret[...], ...) or other unittest methods
         ret = self.serviceImpl.run_dmlb2000genome(self.ctx, {'workspace_name': self.wsName,
-                                                             'parameter_1': '65432/14/1'})
+                                                             'parameter_1': '65693/35/1'})
+        print(ret)
